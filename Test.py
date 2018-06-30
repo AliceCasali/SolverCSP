@@ -12,15 +12,15 @@ class Test:
 
     def set_board(self, difficulty):
         if difficulty == 0:
-            self.original_board[0] = [3, 0, 0, 0, 0, 1, 6, 0, 9]
-            self.original_board[1] = [1, 8, 5, 0, 9, 0, 0, 0, 0]
-            self.original_board[2] = [0, 2, 6, 3, 5, 7, 1, 0, 0]
-            self.original_board[3] = [0, 5, 2, 0, 7, 0, 0, 8, 0]
-            self.original_board[4] = [0, 1, 0, 0, 0, 0, 0, 3, 0]
-            self.original_board[5] = [0, 9, 0, 0, 2, 0, 4, 1, 0]
-            self.original_board[6] = [0, 0, 1, 4, 6, 9, 2, 7, 0]
-            self.original_board[7] = [0, 0, 0, 0, 3, 0, 8, 9, 1]
-            self.original_board[8] = [2, 0, 9, 8, 0, 0, 0, 0, 4]
+            self.original_board[0] = [0, 4, 7, 0, 8, 0, 0, 0, 3]
+            self.original_board[1] = [0, 0, 0, 0, 0, 1, 0, 0, 0]
+            self.original_board[2] = [2, 0, 0, 0, 0, 0, 0, 0, 7]
+            self.original_board[3] = [0, 0, 0, 0, 4, 0, 1, 0, 2]
+            self.original_board[4] = [0, 1, 0, 0, 0, 2, 0, 9, 0]
+            self.original_board[5] = [0, 0, 0, 3, 0, 8, 0, 0, 0]
+            self.original_board[6] = [0, 8, 0, 0, 0, 9, 7, 0, 0]
+            self.original_board[7] = [0, 3, 6, 0, 0, 4, 0, 0, 0]
+            self.original_board[8] = [4, 0, 1, 0, 0, 3, 0, 0, 0]
         elif difficulty == 1:
             self.original_board[0] = [3, 0, 1, 7, 0, 0, 0, 0, 6]
             self.original_board[1] = [9, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -112,7 +112,7 @@ def main():
     # options are no_inference, forward_checking and mac
     inf = no_inference
     # difficulty can assume 6 values: if the number increases, the difficulty increases
-    difficulty = 5
+    difficulty = 4
 
     # to add a new board, and add a clause "elif self.difficulty == 6:
     #                                                             self.original_board[0] = first row
