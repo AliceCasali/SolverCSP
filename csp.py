@@ -1,4 +1,3 @@
-
 class CSP:
     def __init__(self, variables, domains, neighbors, constraints):
         variables = variables or list(domains.keys())

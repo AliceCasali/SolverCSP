@@ -12,16 +12,6 @@ class Test:
 
     def set_board(self, difficulty):
         if difficulty == 0:
-            self.original_board[0] = [0, 4, 7, 0, 8, 0, 0, 0, 3]
-            self.original_board[1] = [0, 0, 0, 0, 0, 1, 0, 0, 0]
-            self.original_board[2] = [2, 0, 0, 0, 0, 0, 0, 0, 7]
-            self.original_board[3] = [0, 0, 0, 0, 4, 0, 1, 0, 2]
-            self.original_board[4] = [0, 1, 0, 0, 0, 2, 0, 9, 0]
-            self.original_board[5] = [0, 0, 0, 3, 0, 8, 0, 0, 0]
-            self.original_board[6] = [0, 8, 0, 0, 0, 9, 7, 0, 0]
-            self.original_board[7] = [0, 3, 6, 0, 0, 4, 0, 0, 0]
-            self.original_board[8] = [4, 0, 1, 0, 0, 3, 0, 0, 0]
-        elif difficulty == 1:
             self.original_board[0] = [3, 0, 1, 7, 0, 0, 0, 0, 6]
             self.original_board[1] = [9, 0, 0, 0, 0, 0, 0, 0, 0]
             self.original_board[2] = [0, 0, 8, 0, 5, 6, 0, 1, 0]
@@ -31,6 +21,18 @@ class Test:
             self.original_board[6] = [0, 9, 0, 4, 3, 0, 1, 0, 0]
             self.original_board[7] = [0, 0, 0, 0, 0, 0, 0, 0, 2]
             self.original_board[8] = [6, 0, 0, 0, 0, 2, 3, 0, 7]
+
+        elif difficulty == 1:
+            self.original_board[0] = [0, 4, 7, 0, 8, 0, 0, 0, 3]
+            self.original_board[1] = [0, 0, 0, 0, 0, 1, 0, 0, 0]
+            self.original_board[2] = [2, 0, 0, 0, 0, 0, 0, 0, 7]
+            self.original_board[3] = [0, 0, 0, 0, 4, 0, 1, 0, 2]
+            self.original_board[4] = [0, 1, 0, 0, 0, 2, 0, 9, 0]
+            self.original_board[5] = [0, 0, 0, 3, 0, 8, 0, 0, 0]
+            self.original_board[6] = [0, 8, 0, 0, 0, 9, 7, 0, 0]
+            self.original_board[7] = [0, 3, 6, 0, 0, 4, 0, 0, 0]
+            self.original_board[8] = [4, 0, 1, 0, 0, 3, 0, 0, 0]
+
         elif difficulty == 2:
             self.original_board[0] = [0, 2, 5, 0, 0, 0, 3, 0, 0]
             self.original_board[1] = [1, 0, 0, 4, 0, 9, 0, 0, 0]
@@ -43,15 +45,16 @@ class Test:
             self.original_board[8] = [0, 9, 0, 0, 0, 4, 8, 0, 0]
 
         if difficulty == 3:
-            self.original_board[0] = [8, 0, 0, 0, 0, 0, 0, 0, 0]
-            self.original_board[1] = [0, 0, 3, 6, 0, 0, 0, 0, 0]
-            self.original_board[2] = [0, 7, 0, 0, 9, 0, 2, 0, 0]
-            self.original_board[3] = [0, 5, 0, 0, 0, 7, 0, 0, 0]
-            self.original_board[4] = [0, 0, 0, 0, 4, 5, 7, 0, 0]
-            self.original_board[5] = [0, 0, 0, 1, 0, 0, 0, 3, 0]
-            self.original_board[6] = [0, 0, 1, 0, 0, 0, 0, 6, 8]
-            self.original_board[7] = [0, 0, 8, 5, 0, 0, 0, 1, 0]
-            self.original_board[8] = [0, 9, 0, 0, 0, 0, 4, 0, 0]
+            self.original_board[0] = [0, 0, 0, 0, 2, 0, 0, 0, 5]
+            self.original_board[1] = [0, 0, 1, 6, 0, 0, 0, 0, 0]
+            self.original_board[2] = [0, 6, 0, 7, 0, 0, 0, 8, 1]
+            self.original_board[3] = [0, 0, 0, 3, 0, 0, 5, 0, 0]
+            self.original_board[4] = [3, 0, 8, 5, 0, 6, 2, 0, 9]
+            self.original_board[5] = [0, 0, 4, 0, 0, 7, 0, 0, 0]
+            self.original_board[6] = [7, 4, 0, 0, 0, 9, 0, 1, 0]
+            self.original_board[7] = [0, 0, 0, 0, 0, 5, 9, 0, 0]
+            self.original_board[8] = [8, 0, 0, 0, 7, 0, 0, 0, 0]
+
         elif difficulty == 4:
             self.original_board[0] = [2, 0, 0, 0, 0, 0, 0, 4, 3]
             self.original_board[1] = [1, 9, 0, 0, 3, 0, 0, 0, 0]
@@ -62,16 +65,17 @@ class Test:
             self.original_board[6] = [0, 0, 0, 6, 0, 0, 0, 2, 0]
             self.original_board[7] = [0, 0, 0, 0, 8, 0, 0, 3, 4]
             self.original_board[8] = [9, 1, 0, 0, 0, 0, 0, 0, 6]
+
         elif difficulty == 5:
-            self.original_board[0] = [0, 0, 0, 0, 2, 0, 0, 0, 5]
-            self.original_board[1] = [0, 0, 1, 6, 0, 0, 0, 0, 0]
-            self.original_board[2] = [0, 6, 0, 7, 0, 0, 0, 8, 1]
-            self.original_board[3] = [0, 0, 0, 3, 0, 0, 5, 0, 0]
-            self.original_board[4] = [3, 0, 8, 5, 0, 6, 2, 0, 9]
-            self.original_board[5] = [0, 0, 4, 0, 0, 7, 0, 0, 0]
-            self.original_board[6] = [7, 4, 0, 0, 0, 9, 0, 1, 0]
-            self.original_board[7] = [0, 0, 0, 0, 0, 5, 9, 0, 0]
-            self.original_board[8] = [8, 0, 0, 0, 7, 0, 0, 0, 0]
+            self.original_board[0] = [8, 0, 0, 0, 0, 0, 0, 0, 0]
+            self.original_board[1] = [0, 0, 3, 6, 0, 0, 0, 0, 0]
+            self.original_board[2] = [0, 7, 0, 0, 9, 0, 2, 0, 0]
+            self.original_board[3] = [0, 5, 0, 0, 0, 7, 0, 0, 0]
+            self.original_board[4] = [0, 0, 0, 0, 4, 5, 7, 0, 0]
+            self.original_board[5] = [0, 0, 0, 1, 0, 0, 0, 3, 0]
+            self.original_board[6] = [0, 0, 1, 0, 0, 0, 0, 6, 8]
+            self.original_board[7] = [0, 0, 8, 5, 0, 0, 0, 1, 0]
+            self.original_board[8] = [0, 9, 0, 0, 0, 0, 4, 0, 0]
 
     #at the beginning, reduce the variable's domains with AC3, if the game
     #is not trivial, it starts with backtracking
@@ -112,7 +116,7 @@ def main():
     # options are no_inference, forward_checking and mac
     inf = no_inference
     # difficulty can assume 6 values: if the number increases, the difficulty increases
-    difficulty = 4
+    difficulty = 5
 
     # to add a new board, and add a clause "elif self.difficulty == 6:
     #                                                             self.original_board[0] = first row
