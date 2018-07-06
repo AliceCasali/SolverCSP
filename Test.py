@@ -116,7 +116,7 @@ def main():
     # options are no_inference, forward_checking and mac
     inf = no_inference
     # difficulty can assume 6 values: if the number increases, the difficulty increases
-    difficulty = 5
+    difficulty = 0
 
     # to add a new board, and add a clause "elif self.difficulty == 6:
     #                                                             self.original_board[0] = first row
