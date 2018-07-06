@@ -1,5 +1,5 @@
 # SolverCSP
-Solver of a Sudoku game as CSP
+Solver of a Sudoku game as CSP. 
 To run the program is needed python 3.4 or later, most of the function inside csp.py have been taken from AIMA's code
 (https://github.com/aimacode/aima-python) as a base solver for general csp (some is slightly modified, I explained
 the changes in the comments).
